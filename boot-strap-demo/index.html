@@ -9,55 +9,123 @@
     <script src="node_modules/jquery/dist/jquery.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
-    <style>
-      .one{
-          background-color: red;
-          width: 200px;
-      }
-      .two{
-          background-color: green;
-          width: 200px;
-      }
-      .three{
-          background-color: red;
-          width: 200px;
-      }
-      .four{
-          background-color: blue;
-          width: 200px;
-      }
-      .five{
-          background-color:olive;
-          width: 200px;
-      }
-      .container1{
-
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        flex-wrap: wrap;
-      }
-      </style>
+    <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 </head>
 <body>
-    <div class="container1">
-            <div class="one">one</div>
-            <div  class="two">two</div>
-            <div class="three">three</div>
-            <div class="four">four</div>
-            <div class="five">five</div>
-            <div class="one">one</div>
-            <div  class="two">two</div>
-            <div class="three">three</div>
-            <div class="four">four</div>
-            <div class="five">five</div>
-            <div class="one">one</div>
-            <div  class="two">two</div>
-            <div class="three">three</div>
-            <div class="four">four</div>
-            <div class="five">five</div>
-            <button class="btn btn-primary">ok</button> 
-    </div>
+    <div clas="mycart">
+   <div class="header">
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">MyCartEcomm</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+           Products
+          </div>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            About Us
+           </div>
+        </div>
+      </nav>
+
+   </div>
+   <div class="productgallery">
+    <div class="card" >
+        <img class="productImg" src="https://www.junglescout.com/wp-content/uploads/2021/01/product-photo-water-bottle-hero.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Product1</p>
+          <a href="#" class="btn btn-primary">Add To Cart</a>
+        </div>
+      </div>
+      <div class="card" >
+        <img class="productImg" src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZHVjdHxlbnwwfHwwfHw%3D&w=1000&q=80" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Product1</p>
+          <a href="#" class="btn btn-primary">Add To Cart</a>
+        </div>
+      </div>
+      <div class="card" >
+        <img class="productImg" src="https://www.junglescout.com/wp-content/uploads/2021/01/product-photo-water-bottle-hero.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Product1</p>
+          <a href="#" class="btn btn-primary">Add To Cart</a>
+        </div>
+      </div>
+      <div class="card" >
+        <img class="productImg" src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZHVjdHxlbnwwfHwwfHw%3D&w=1000&q=80" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Product1</p>
+          <a href="#" class="btn btn-primary">Add To Cart</a>
+        </div>
+      </div>
+      <div class="card" >
+        <img class="productImg" src="https://www.junglescout.com/wp-content/uploads/2021/01/product-photo-water-bottle-hero.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Product1</p>
+          <a href="#" class="btn btn-primary">Add To Cart</a>
+        </div>
+      </div>
+      <div class="card" >
+        <img class="productImg" src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZHVjdHxlbnwwfHwwfHw%3D&w=1000&q=80" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Product1</p>
+          <a href="#" class="btn btn-primary">Add To Cart</a>
+        </div>
+      </div>
+   </div>
+   <div class="baner">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="..." class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://www.volusion.com/blog/content/images/2021/09/Product-Photography.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://media.istockphoto.com/photos/beauty-blogger-taking-photo-of-cosmetics-picture-id918813050?k=20&m=918813050&s=612x612&w=0&h=d1-09JGsKLhXWWdkmeisVAiERw0vqnIew7AurIIev6A=" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+   </div>
+   <div class="footer"><footer>
+    <p>MyCart Eccomerce App<br>
+    <a href="mailto:hege@example.com">Mycart@example.com</a></p>
+  </footer>
+  </div>
+</div>
 </body>
 </html>
